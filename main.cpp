@@ -33,6 +33,10 @@ uint8_t subsetSum(uint32_t array[], uint32_t n, uint32_t k, uint32_t v)
 
 int main() {
     uint32_t array[] = {1, 8, 6, 4, 3};
-    printf("%d", subsetSum(array, 5, 3, 16));
+    printf("%d", subsetSum(array, 5, 3, 9));
+    printf("\n");
+    printf("%d", subsetSum(array, 5, 2, 9));
+    printf("\n");
+    printf("%d", subsetSum(array, 5, 1, 4));
     return 0;
 }
